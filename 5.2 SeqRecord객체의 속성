@@ -1,0 +1,15 @@
+### 5.2 SeqRecord객체의 속성
+
+* seq: 서열 
+* id: Locus와 같은 ID 
+* name: 서열의 이름, 유전자 이름과 같은 것이 들어갈 수도 있음
+* description: 추가 설명
+* letter_annotation: 사전형(딕셔너리)의 형태로 사용자가 추가설명을 키-값 쌍으로 넣을 수 있음
+* annotations: 추가 설명이 파이썬 사전형 형태로 들어갈 수 있음
+* features: 서열구간에 대한 특징 들어감
+* dbxrets: 추가 데이터베이스가 있다면 내용 들어감
+
+
+
+* ?Locus: 유전체 상에서의 위치
+* ?letter_annotation이랑 annotations 차이점: letter_annotations은 각 letter/symbol에 대한 annotation(주석), annotations은 whole sequence에 대한 further information
